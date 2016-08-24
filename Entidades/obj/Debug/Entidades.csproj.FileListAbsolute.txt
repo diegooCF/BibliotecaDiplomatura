@@ -1,0 +1,10 @@
+D:\CursoNET\SolucionBiblioteca\Entidades\bin\Debug\Entidades.dll
+D:\CursoNET\SolucionBiblioteca\Entidades\bin\Debug\Entidades.pdb
+D:\CursoNET\SolucionBiblioteca\Entidades\obj\Debug\Entidades.dll
+D:\CursoNET\SolucionBiblioteca\Entidades\obj\Debug\Entidades.pdb
+D:\CursoNET\SolucionBiblioteca\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Alumno\Desktop\Projects\SolucionBibliotecaProfe\Entidades\bin\Debug\Entidades.dll
+C:\Users\Alumno\Desktop\Projects\SolucionBibliotecaProfe\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Alumno\Desktop\Projects\SolucionBibliotecaProfe\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Alumno\Desktop\Projects\SolucionBibliotecaProfe\Entidades\obj\Debug\Entidades.dll
+C:\Users\Alumno\Desktop\Projects\SolucionBibliotecaProfe\Entidades\obj\Debug\Entidades.pdb
