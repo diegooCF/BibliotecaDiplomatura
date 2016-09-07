@@ -10,5 +10,11 @@ namespace Entidades
     {
         public int Id { get; set; }
         public string Descripcion { get; set; }
+
+        public Editorial(int Id, string Descripcion)
+        {
+            this.Id = Id;
+            this.Descripcion = Descripcion;
+        }
     }
 }

@@ -148,5 +148,13 @@ namespace WindowsBiblioteca
             objform.StartPosition = FormStartPosition.CenterScreen;
             objform.Show();
         }
+
+        private void actualizarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmGenero objform = new frmGenero();
+            objform.MdiParent = this;
+            objform.StartPosition = FormStartPosition.CenterScreen;
+            objform.Show();
+        }
     }
 }

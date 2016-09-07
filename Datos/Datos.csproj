@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="Autor.cs" />
     <Compile Include="Conexion.cs" />
+    <Compile Include="Genero.cs" />
+    <Compile Include="Parametrica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

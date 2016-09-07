@@ -79,28 +79,28 @@
             // nuevoToolStripMenuItem
             // 
             this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
-            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.nuevoToolStripMenuItem.Text = "Nuevo";
             this.nuevoToolStripMenuItem.Click += new System.EventHandler(this.nuevoToolStripMenuItem_Click);
             // 
             // borrarToolStripMenuItem
             // 
             this.borrarToolStripMenuItem.Name = "borrarToolStripMenuItem";
-            this.borrarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.borrarToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.borrarToolStripMenuItem.Text = "Borrar";
             this.borrarToolStripMenuItem.Click += new System.EventHandler(this.borrarToolStripMenuItem_Click);
             // 
             // modificarToolStripMenuItem
             // 
             this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
-            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.modificarToolStripMenuItem.Text = "Modificar";
             this.modificarToolStripMenuItem.Click += new System.EventHandler(this.modificarToolStripMenuItem_Click);
             // 
             // listarToolStripMenuItem
             // 
             this.listarToolStripMenuItem.Name = "listarToolStripMenuItem";
-            this.listarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.listarToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.listarToolStripMenuItem.Text = "Listar";
             this.listarToolStripMenuItem.Click += new System.EventHandler(this.listarToolStripMenuItem_Click);
             // 
@@ -115,8 +115,9 @@
             // actualizarToolStripMenuItem
             // 
             this.actualizarToolStripMenuItem.Name = "actualizarToolStripMenuItem";
-            this.actualizarToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.actualizarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.actualizarToolStripMenuItem.Text = "Actualizar";
+            this.actualizarToolStripMenuItem.Click += new System.EventHandler(this.actualizarToolStripMenuItem_Click);
             // 
             // editorialesToolStripMenuItem
             // 

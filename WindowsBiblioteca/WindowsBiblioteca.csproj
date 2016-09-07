@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmBaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBaseForm.Designer.cs">
+      <DependentUpon>frmBaseForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmEliminarAutor.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmEliminarAutor.Designer.cs">
       <DependentUpon>frmEliminarAutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGenero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenero.Designer.cs">
+      <DependentUpon>frmGenero.cs</DependentUpon>
     </Compile>
     <Compile Include="frmListaAutores.cs">
       <SubType>Form</SubType>
@@ -78,8 +90,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBaseForm.resx">
+      <DependentUpon>frmBaseForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEliminarAutor.resx">
       <DependentUpon>frmEliminarAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenero.resx">
+      <DependentUpon>frmGenero.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmListaAutores.resx">
       <DependentUpon>frmListaAutores.cs</DependentUpon>
