@@ -210,6 +210,7 @@
             this.cboAutores.Name = "cboAutores";
             this.cboAutores.Size = new System.Drawing.Size(262, 21);
             this.cboAutores.TabIndex = 7;
+            this.cboAutores.SelectedIndexChanged += new System.EventHandler(this.cboAutores_SelectedIndexChanged);
             // 
             // frmModificar
             // 

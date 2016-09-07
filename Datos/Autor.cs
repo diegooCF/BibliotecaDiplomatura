@@ -46,6 +46,31 @@ namespace Datos
           
         }
 
+        public static void Eliminar(int pCodigo)
+        {
+            string strProc = "procEliminaAutor"; //nombre procedure
+            SqlConnection objConexion = new SqlConnection(Conexion.strConexion);
+            SqlCommand objCommand = new SqlCommand(strProc, objConexion);
+            objCommand.CommandType = CommandType.StoredProcedure;
+
+            objCommand.Parameters.AddWithValue("@Codigo", pCodigo);
+
+            try
+            {
+                objConexion.Open();
+                objCommand.ExecuteNonQuery();
+            }
+            catch
+            {
+                throw new Exception("Error en transaccion");
+            }
+            finally
+            {
+                if (objConexion.State == ConnectionState.Open)
+                    objConexion.Close();
+            }
+        }
+
         public static DataTable TraerTodos()
         {
             DataTable dt = new DataTable();

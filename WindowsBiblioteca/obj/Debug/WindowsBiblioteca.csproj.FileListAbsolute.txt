@@ -34,3 +34,6 @@ C:\Users\Alumno\Desktop\Projects\SolucionBibliotecaProfe\WindowsBiblioteca\obj\D
 C:\Users\Alumno\Desktop\Projects\SolucionBibliotecaProfe\WindowsBiblioteca\obj\Debug\WindowsBiblioteca.Properties.Resources.resources
 C:\Users\Alumno\Desktop\Projects\SolucionBibliotecaProfe\WindowsBiblioteca\obj\Debug\WindowsBiblioteca.csproj.GenerateResource.Cache
 C:\Users\Alumno\Desktop\Projects\SolucionBibliotecaProfe\WindowsBiblioteca\obj\Debug\WindowsBiblioteca.frmModificar.resources
+C:\Users\Diego Fernandez\Git Repositories and Projects\Projects\Visual Studio 2015\SolucionBibliotecaProfe\WindowsBiblioteca\bin\Debug\WindowsBiblioteca.exe.config
+C:\Users\Diego Fernandez\Git Repositories and Projects\Projects\Visual Studio 2015\SolucionBibliotecaProfe\WindowsBiblioteca\obj\Debug\WindowsBiblioteca.exe
+C:\Users\Diego Fernandez\Git Repositories and Projects\Projects\Visual Studio 2015\SolucionBibliotecaProfe\WindowsBiblioteca\obj\Debug\WindowsBiblioteca.pdb

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmEliminarAutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEliminarAutor.Designer.cs">
+      <DependentUpon>frmEliminarAutor.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmListaAutores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmEliminarAutor.resx">
+      <DependentUpon>frmEliminarAutor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmListaAutores.resx">
       <DependentUpon>frmListaAutores.cs</DependentUpon>
     </EmbeddedResource>

@@ -40,7 +40,18 @@ namespace Logica
 
                 throw new Exception(ex.Message);
             }
+        }
+        public void Eliminar(int pCodigo)
+        {
+            try
+            {
+                Datos.Autor.Eliminar(pCodigo);
+            }
+            catch (Exception ex)
+            {
 
+                throw new Exception(ex.Message);
+            }
         }
         public DataTable TraerTodos()
         {
