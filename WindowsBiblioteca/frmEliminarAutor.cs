@@ -50,6 +50,25 @@ namespace WindowsBiblioteca
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }        
+        }
+
+        private void cboAutores_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int codigoSeleccionado = Convert.ToInt32(cboAutores.SelectedValue);
+            Logica.Autor logicaAutor = new Logica.Autor();
+            Entidades.Autor objAutor = logicaAutor.TraerAutor(codigoSeleccionado);
+
+            try
+            {
+                txtNombre.Text = objAutor.Nombre;
+                txtApellido.Text = objAutor.Apellido;
+                dtpFechaNac.Value = objAutor.FechaNacimiento;
+                txtNacionalidad.Text = objAutor.Nacionalidad;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

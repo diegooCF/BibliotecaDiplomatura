@@ -48,7 +48,7 @@ namespace Datos
 
         public static void Eliminar(int pCodigo)
         {
-            string strProc = "procEliminaAutor"; //nombre procedure
+            string strProc = "procEliminarAutor"; //nombre procedure
             SqlConnection objConexion = new SqlConnection(Conexion.strConexion);
             SqlCommand objCommand = new SqlCommand(strProc, objConexion);
             objCommand.CommandType = CommandType.StoredProcedure;

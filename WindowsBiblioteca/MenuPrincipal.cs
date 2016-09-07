@@ -140,5 +140,13 @@ namespace WindowsBiblioteca
             objform.StartPosition = FormStartPosition.CenterScreen;
             objform.Show();
         }
+
+        private void borrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmEliminarAutor objform = new frmEliminarAutor();
+            objform.MdiParent = this;
+            objform.StartPosition = FormStartPosition.CenterScreen;
+            objform.Show();
+        }
     }
 }
